@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Oct 24 10:38:10 2026
+# Process ID         : 23076
+# Current directory  : E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.runs/synth_1
+# Command line       : vivado.exe -log risc8_5stage_core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source risc8_5stage_core.tcl
+# Log file           : E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.runs/synth_1/risc8_5stage_core.vds
+# Journal file       : E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-LV6Q7BEF
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 8412 MB
+# Swap memory        : 7878 MB
+# Total Virtual      : 16290 MB
+# Available Virtual  : 654 MB
+#-----------------------------------------------------------
+source risc8_5stage_core.tcl -notrace
