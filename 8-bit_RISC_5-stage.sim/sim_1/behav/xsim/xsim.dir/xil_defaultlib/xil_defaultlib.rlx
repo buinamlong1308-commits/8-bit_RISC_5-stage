@@ -1,0 +1,14 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,,,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sim_1/imports/tb/tb_custom.v,1792680049,verilog,,,,tb_custom,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sim_1/imports/tb/tb_risc8_5stage_Shi.v,1792811385,verilog,,,,tb_risc8_5stage,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/alu.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/control_unit.v,,alu,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/control_unit.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/dmem.v,,control_unit,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/dmem.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/hazard_unit.v,,dmem,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/hazard_unit.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/imem.v,,hazard_unit,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/imem.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/regfile.v,,imem,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/regfile.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/risc8_5stage_core.v,,regfile,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,
+E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sources_1/imports/rtl/risc8_5stage_core.v,1792680049,verilog,,E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sim_1/imports/tb/tb_risc8_5stage_Shi.v,,risc8_5stage_core,,,../../../../../../AMD/2026.1/Vivado/data/rsb/busdef,,,,,

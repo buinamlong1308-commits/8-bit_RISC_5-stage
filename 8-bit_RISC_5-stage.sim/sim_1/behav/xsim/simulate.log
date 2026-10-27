@@ -1,0 +1,68 @@
+Time resolution is 1 ps
+WARNING: File program.hex referenced on E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sim_1/imports/tb/tb_risc8_5stage_Shi.v at line 49 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+t=               25000 PC=00 | ID:-0000 | EX:v0 | MEM:v0 | WB:- R0<=00 | Z=0 C=0                           
+t=               35000 PC=01 | ID: 823c | EX:v0 | MEM:v0 | WB:- R0<=00 | Z=0 C=0                           
+t=               45000 PC=02 | ID: 840f | EX:v1 | MEM:v0 | WB:- R0<=00 | Z=0 C=0                           
+t=               55000 PC=03 | ID: 3650 | EX:v1 | MEM:v1 | WB:- R0<=00 | Z=0 C=0                           
+t=               65000 PC=04 | ID: 4850 | EX:v1 | MEM:v1 | WB:w R1<=3c | Z=0 C=0                        fwd
+t=               75000 PC=05 | ID: 5ae0 | EX:v1 | MEM:v1 | WB:w R2<=0f | Z=0 C=0                        fwd
+t=               85000 PC=06 | ID: 6d40 | EX:v1 | MEM:v1 | WB:w R3<=0c | Z=0 C=0                        fwd
+t=               95000 PC=07 | ID: 7f80 | EX:v1 | MEM:v1 | WB:w R4<=3f | Z=0 C=0                        fwd
+t=              105000 PC=08 | ID: 2fe8 | EX:v1 | MEM:v1 | WB:w R5<=33 | Z=0 C=0                        fwd
+t=              115000 PC=09 | ID: d00a | EX:v1 | MEM:v1 | WB:w R6<=66 | Z=0 C=0                        fwd
+t=              125000 PC=0a | ID: 8eff | EX:v1 | MEM:v1 | WB:w R7<=33 | Z=1 C=0        BRANCH->flush 2    
+t=              135000 PC=0a | ID:-0000 | EX:v0 | MEM:v1 | WB:w R7<=00 | Z=1 C=0                           
+t=              145000 PC=0b | ID: 8205 | EX:v0 | MEM:v0 | WB:- R0<=3c | Z=1 C=0                           
+t=              155000 PC=0c | ID: 8400 | EX:v1 | MEM:v0 | WB:- R7<=33 | Z=1 C=0                           
+t=              165000 PC=0d | ID: 8601 | EX:v1 | MEM:v1 | WB:- R0<=00 | Z=1 C=0                           
+t=              175000 PC=0e | ID: 1488 | EX:v1 | MEM:v1 | WB:w R1<=05 | Z=1 C=0                           
+t=              185000 PC=0f | ID: 2258 | EX:v1 | MEM:v1 | WB:w R2<=00 | Z=1 C=0                        fwd
+t=              195000 PC=10 | ID: e00d | EX:v1 | MEM:v1 | WB:w R3<=01 | Z=0 C=0                        fwd
+t=              205000 PC=11 | ID: 8820 | EX:v1 | MEM:v1 | WB:w R2<=05 | Z=0 C=0        BRANCH->flush 2    
+t=              215000 PC=0d | ID:-0000 | EX:v0 | MEM:v1 | WB:w R1<=04 | Z=0 C=0                           
+t=              225000 PC=0e | ID: 1488 | EX:v0 | MEM:v0 | WB:- R0<=05 | Z=0 C=0                           
+t=              235000 PC=0f | ID: 2258 | EX:v1 | MEM:v0 | WB:- R4<=3f | Z=0 C=0                           
+t=              245000 PC=10 | ID: e00d | EX:v1 | MEM:v1 | WB:- R0<=00 | Z=0 C=0                           
+t=              255000 PC=11 | ID: 8820 | EX:v1 | MEM:v1 | WB:w R2<=09 | Z=0 C=0        BRANCH->flush 2    
+t=              265000 PC=0d | ID:-0000 | EX:v0 | MEM:v1 | WB:w R1<=03 | Z=0 C=0                           
+t=              275000 PC=0e | ID: 1488 | EX:v0 | MEM:v0 | WB:- R0<=04 | Z=0 C=0                           
+t=              285000 PC=0f | ID: 2258 | EX:v1 | MEM:v0 | WB:- R4<=3f | Z=0 C=0                           
+t=              295000 PC=10 | ID: e00d | EX:v1 | MEM:v1 | WB:- R0<=00 | Z=0 C=0                           
+t=              305000 PC=11 | ID: 8820 | EX:v1 | MEM:v1 | WB:w R2<=0c | Z=0 C=0        BRANCH->flush 2    
+t=              315000 PC=0d | ID:-0000 | EX:v0 | MEM:v1 | WB:w R1<=02 | Z=0 C=0                           
+t=              325000 PC=0e | ID: 1488 | EX:v0 | MEM:v0 | WB:- R0<=03 | Z=0 C=0                           
+t=              335000 PC=0f | ID: 2258 | EX:v1 | MEM:v0 | WB:- R4<=3f | Z=0 C=0                           
+t=              345000 PC=10 | ID: e00d | EX:v1 | MEM:v1 | WB:- R0<=00 | Z=0 C=0                           
+t=              355000 PC=11 | ID: 8820 | EX:v1 | MEM:v1 | WB:w R2<=0e | Z=0 C=0        BRANCH->flush 2    
+t=              365000 PC=0d | ID:-0000 | EX:v0 | MEM:v1 | WB:w R1<=01 | Z=0 C=0                           
+t=              375000 PC=0e | ID: 1488 | EX:v0 | MEM:v0 | WB:- R0<=02 | Z=0 C=0                           
+t=              385000 PC=0f | ID: 2258 | EX:v1 | MEM:v0 | WB:- R4<=3f | Z=0 C=0                           
+t=              395000 PC=10 | ID: e00d | EX:v1 | MEM:v1 | WB:- R0<=00 | Z=0 C=0                           
+t=              405000 PC=11 | ID: 8820 | EX:v1 | MEM:v1 | WB:w R2<=0f | Z=1 C=0                           
+t=              415000 PC=12 | ID: b500 | EX:v1 | MEM:v1 | WB:w R1<=00 | Z=1 C=0                           
+t=              425000 PC=13 | ID: ab00 | EX:v1 | MEM:v1 | WB:- R0<=01 | Z=1 C=0                        fwd
+t=              435000 PC=14 | ID: 9af0 | EX:v1 | MEM:v1 | WB:w R4<=20 | Z=1 C=0  STALL                 fwd
+t=              445000 PC=14 | ID: 9af0 | EX:v0 | MEM:v1 | WB:- R2<=2f | Z=1 C=0                           
+t=              455000 PC=15 | ID: 9a01 | EX:v1 | MEM:v0 | WB:w R5<=0f | Z=1 C=0                        fwd
+t=              465000 PC=16 | ID: c017 | EX:v1 | MEM:v1 | WB:- R5<=99 | Z=0 C=0                        fwd
+t=              475000 PC=17 | ID: 8cee | EX:v1 | MEM:v1 | WB:w R5<=ff | Z=1 C=1        BRANCH->flush 2    
+t=              485000 PC=17 | ID:-0000 | EX:v0 | MEM:v1 | WB:w R5<=00 | Z=1 C=1                           
+t=              495000 PC=18 | ID: f000 | EX:v0 | MEM:v0 | WB:- R0<=0f | Z=1 C=1                           
+t=              505000 PC=19 | ID: 8caa | EX:v1 | MEM:v0 | WB:- R6<=ff | Z=1 C=1                           
+t=              515000 PC=19 | ID:-0000 | EX:v0 | MEM:v1 | WB:- R0<=00 | Z=1 C=1                           
+t=              525000 PC=19 | ID:-0000 | EX:v0 | MEM:v0 | WB:- R0<=00 | Z=1 C=1                           
+
+------------- register / memory check -------------
+PASS  R1 = 00
+PASS  R2 = 0f
+PASS  R3 = 01
+PASS  R4 = 20
+PASS  R5 = 00
+PASS  R6 = 66
+PASS  R7 = 00
+PASS  MEM[20] = 0F
+PASS  flags Z=1 C=1
+
+cycles=51  instructions=34  CPI=1.50  load-use stalls=1  taken branches=6  forwards=12
+*** ALL TESTS PASSED ***
+$finish called at time : 545 ns : File "E:/App/AMD_PR/8-bit_RISC_5-stage/8-bit_RISC_5-stage.srcs/sim_1/imports/tb/tb_risc8_5stage_Shi.v" Line 135
