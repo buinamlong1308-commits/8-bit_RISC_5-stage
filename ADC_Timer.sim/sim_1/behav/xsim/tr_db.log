@@ -1,0 +1,10 @@
+  CREATE_STREAM @0 {NAME:cseq T:Transactions SCOPE:uvm_test_top.sqr STREAM:549}
+  CREATE_STREAM @2490000 {NAME:rseq T:Transactions SCOPE:uvm_test_top.sqr STREAM:628}
+  CREATE_STREAM @0 {NAME:cseq T:Transactions SCOPE:uvm_test_top.sqr STREAM:570}
+  CREATE_STREAM @2490000 {NAME:rseq T:Transactions SCOPE:uvm_test_top.sqr STREAM:673}
+  CREATE_STREAM @0 {NAME:cseq T:Transactions SCOPE:uvm_test_top.env.agt.sqr STREAM:608}
+  CREATE_STREAM @2490000 {NAME:rseq T:Transactions SCOPE:uvm_test_top.env.agt.sqr STREAM:711}
+  CREATE_STREAM @0 {NAME:ac T:Transactions SCOPE:uvm_test_top.aenv.agt.sqr STREAM:855}
+  CREATE_STREAM @2740000 {NAME:ar T:Transactions SCOPE:uvm_test_top.aenv.agt.sqr STREAM:970}
+  CREATE_STREAM @9530000 {NAME:tc T:Transactions SCOPE:uvm_test_top.tenv.agt.sqr STREAM:1154}
+  CREATE_STREAM @18330000 {NAME:tr T:Transactions SCOPE:uvm_test_top.tenv.agt.sqr STREAM:1202}

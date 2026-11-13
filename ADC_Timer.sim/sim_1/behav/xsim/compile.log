@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/8bit_CPU/risc8_5stage/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/rtl/apb_regs8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_regs8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/8bit_CPU/risc8_5stage/rtl/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/timer_adc8_soc/timer_adc8_soc/soc/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/8bit_CPU/risc8_5stage/rtl/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/8bit_CPU/risc8_5stage/rtl/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/8bit_CPU/risc8_5stage/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/8bit_CPU/risc8_5stage/rtl/risc8_5stage_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module risc8_5stage_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sar_adc_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sar_adc_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sync_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/timer8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/rtl/timer_adc8_cpu_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_adc8_cpu_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/timer_adc8_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_adc8_top

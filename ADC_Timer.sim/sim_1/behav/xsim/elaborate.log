@@ -1,0 +1,28 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/App/AMD/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_soc_behav xil_defaultlib.tb_soc xil_defaultlib.glbl -log elaborate.log -L uvm 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.imem(INIT_FILE="program_soc.hex"...
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.hazard_unit
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.apb_regs8
+Compiling module xil_defaultlib.timer8
+Compiling module xil_defaultlib.sar_adc_ctrl
+Compiling module xil_defaultlib.sync_fifo
+Compiling module xil_defaultlib.timer_adc8_top
+Compiling module xil_defaultlib.timer_adc8_cpu_if
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.risc8_5stage_core(IMEM_FILE="pro...
+Compiling module xil_defaultlib.sar_afe_model_mv
+Compiling module xil_defaultlib.tb_soc
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_soc_behav

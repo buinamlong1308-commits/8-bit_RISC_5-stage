@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+
+------------- kiem tra ket qua CPU + peripheral -------------
+PASS  MEM[40] = 56  (A: ADC , 1111 mV -> 86)
+PASS  MEM[41] = 56  (B: mau 1 do timer kich)
+PASS  MEM[45] = 82  (ADC_RCH = VALID | CH2)
+PASS  MEM[42] = 07  (IRQ_STAT before clear = OVF|CMP|EOC)
+PASS  MEM[43] = 00  (IRQ_STAT after clear (W1C))
+PASS  MEM[44] = a8  (ID)
+PASS  MEM[f5] = 00  (vung 0xF0-0xFF dont write in RAM)
+PASS  pwm_out have 4 posedge
+PASS  irq len 106 clock (CPU thang polling, irq is for observation only.)
+PASS  irq decrease
+PASS  3 conversions completed, 3 impulse timer overflow
+
+cycles=139  instructions=96  CPI=1.45
+*** SOC: ALL TESTS PASSED ***
+$finish called at time : 1435 ns : File "E:/App/AMD_PR/ADC_Timer/tb/tb_soc.v" Line 99

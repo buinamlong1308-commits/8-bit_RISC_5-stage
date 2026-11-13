@@ -1,0 +1,63 @@
+82FD   // 00: LDI  r1, 0xFD
+8404   // 01: LDI  r2, 0x04
+B440   // 02: ST   r2, [r1]
+82F5   // 03: LDI  r1, 0xF5
+8423   // 04: LDI  r2, 0x23
+B440   // 05: ST   r2, [r1]
+86FC   // 06: LDI  r3, 0xFC
+8810   // 07: LDI  r4, 0x10
+AAC0   // 08: LD   r5, [r3]
+3B60   // 09: AND  r5, r5, r4
+E008   // 0A: BNZ  pollA
+8CFA   // 0B: LDI  r6, 0xFA
+AF80   // 0C: LD   r7, [r6]
+BF80   // 0D: ST   r7, [r6]
+8240   // 0E: LDI  r1, 0x40
+BE40   // 0F: ST   r7, [r1]
+82F2   // 10: LDI  r1, 0xF2
+8413   // 11: LDI  r2, 19
+B440   // 12: ST   r2, [r1]
+82F3   // 13: LDI  r1, 0xF3
+8405   // 14: LDI  r2, 5
+B440   // 15: ST   r2, [r1]
+82F5   // 16: LDI  r1, 0xF5
+8425   // 17: LDI  r2, 0x25
+B440   // 18: ST   r2, [r1]
+82F0   // 19: LDI  r1, 0xF0
+8401   // 1A: LDI  r2, 0x01
+B440   // 1B: ST   r2, [r1]
+AAC0   // 1C: LD   r5, [r3]
+3B60   // 1D: AND  r5, r5, r4
+E01C   // 1E: BNZ  pollB1
+AF80   // 1F: LD   r7, [r6]
+BF80   // 20: ST   r7, [r6]
+8241   // 21: LDI  r1, 0x41
+BE40   // 22: ST   r7, [r1]
+AAC0   // 23: LD   r5, [r3]
+3B60   // 24: AND  r5, r5, r4
+E023   // 25: BNZ  pollB2
+82FB   // 26: LDI  r1, 0xFB
+A440   // 27: LD   r2, [r1]
+8245   // 28: LDI  r1, 0x45
+B440   // 29: ST   r2, [r1]
+AF80   // 2A: LD   r7, [r6]
+BF80   // 2B: ST   r7, [r6]
+8400   // 2C: LDI  r2, 0x00
+82F0   // 2D: LDI  r1, 0xF0
+B440   // 2E: ST   r2, [r1]
+82F5   // 2F: LDI  r1, 0xF5
+B440   // 30: ST   r2, [r1]
+82FE   // 31: LDI  r1, 0xFE
+A440   // 32: LD   r2, [r1]
+8A42   // 33: LDI  r5, 0x42
+B540   // 34: ST   r2, [r5]
+8407   // 35: LDI  r2, 0x07
+B440   // 36: ST   r2, [r1]
+A440   // 37: LD   r2, [r1]
+8A43   // 38: LDI  r5, 0x43
+B540   // 39: ST   r2, [r5]
+82FF   // 3A: LDI  r1, 0xFF
+A440   // 3B: LD   r2, [r1]
+8A44   // 3C: LDI  r5, 0x44
+B540   // 3D: ST   r2, [r5]
+F000   // 3E: HLT
