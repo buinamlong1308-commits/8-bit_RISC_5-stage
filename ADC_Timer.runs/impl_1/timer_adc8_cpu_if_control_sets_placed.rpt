@@ -1,0 +1,100 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Thu Nov 12 04:20:07 2026
+| Host         : LAPTOP-LV6Q7BEF running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file timer_adc8_cpu_if_control_sets_placed.rpt
+| Design       : timer_adc8_cpu_if
+| Device       : xc7k70t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    22 |
+|    Minimum number of control sets                        |    22 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    36 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    22 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |    14 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               8 |            3 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              18 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             122 |           36 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------+-----------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |           Enable Signal          |          Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+----------------------------------+-----------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | u_periph/u_regs/r_tmr_en         | u_periph/u_regs/r_tmr_en_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_tmr_en         | u_periph/u_regs/SR[0]             |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | u_periph/u_adc/sample_i_1_n_0    | u_periph/u_regs/r_adc_en_reg_0[0] |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | u_periph/u_fifo/cnt[3]_i_1_n_0   | u_periph/u_regs/SR[0]             |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_trig[0]        | u_periph/u_regs/SR[0]             |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_irq_en[0]      | u_periph/u_regs/SR[0]             |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG |                                  |                                   |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | u_periph/u_adc/dcnt[0]           | u_periph/u_regs/r_adc_en_reg_0[0] |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_cmp[0]         | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_load[0]        | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_div[0]         | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_smp[0]         | u_periph/u_regs/SR[0]             |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_presc[0]       | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_thr_hi[0]      | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_regs/r_thr_lo_0[0]    | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_adc/dac[7]_i_2_n_0    | u_periph/u_regs/r_adc_en_reg_0[0] |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | u_periph/u_adc/scnt[7]_i_1_n_0   | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_adc/result[7]_i_1_n_0 | u_periph/u_regs/SR[0]             |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_timer/pwm_out1        | u_periph/u_regs/r_tmr_en_reg_0[0] |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_timer/cnt[7]_i_2_n_0  | u_periph/u_regs/r_tmr_en_reg_1[0] |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_periph/u_fifo/p_0_in__0        |                                   |                2 |             16 |         8.00 |
+|  clk_IBUF_BUFG |                                  | u_periph/u_regs/SR[0]             |                8 |             18 |         2.25 |
++----------------+----------------------------------+-----------------------------------+------------------+----------------+--------------+
+
+

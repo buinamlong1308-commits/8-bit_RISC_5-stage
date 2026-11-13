@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1794431934">
+  <File Type="PA-TCL" Name="timer_adc8_cpu_if.tcl"/>
+  <File Type="REPORTS-TCL" Name="timer_adc8_cpu_if_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="timer_adc8_cpu_if_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="timer_adc8_cpu_if_opt.dcp"/>
+  <File Type="OPT-DRC" Name="timer_adc8_cpu_if_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="timer_adc8_cpu_if_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="timer_adc8_cpu_if_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="timer_adc8_cpu_if_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="timer_adc8_cpu_if.hwdef"/>
+  <File Type="OPT-TIMING" Name="timer_adc8_cpu_if_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="timer_adc8_cpu_if_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="timer_adc8_cpu_if_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="timer_adc8_cpu_if_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="timer_adc8_cpu_if_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="timer_adc8_cpu_if_placed.dcp"/>
+  <File Type="PLACE-IO" Name="timer_adc8_cpu_if_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="timer_adc8_cpu_if_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="timer_adc8_cpu_if_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="timer_adc8_cpu_if_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="timer_adc8_cpu_if_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="timer_adc8_cpu_if_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="timer_adc8_cpu_if_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="timer_adc8_cpu_if_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="timer_adc8_cpu_if_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="timer_adc8_cpu_if_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="timer_adc8_cpu_if_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="timer_adc8_cpu_if_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="timer_adc8_cpu_if_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="timer_adc8_cpu_if_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="timer_adc8_cpu_if_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="timer_adc8_cpu_if_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="timer_adc8_cpu_if_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="timer_adc8_cpu_if_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="timer_adc8_cpu_if_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="timer_adc8_cpu_if_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="timer_adc8_cpu_if_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="timer_adc8_cpu_if_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="timer_adc8_cpu_if_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="timer_adc8_cpu_if_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="timer_adc8_cpu_if_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="timer_adc8_cpu_if_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="timer_adc8_cpu_if_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="timer_adc8_cpu_if_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="timer_adc8_cpu_if_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="timer_adc8_cpu_if_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="timer_adc8_cpu_if_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="timer_adc8_cpu_if_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="timer_adc8_cpu_if_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="timer_adc8_cpu_if_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="timer_adc8_cpu_if_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="timer_adc8_cpu_if_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="timer_adc8_cpu_if_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="timer_adc8_cpu_if_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="timer_adc8_cpu_if_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="timer_adc8_cpu_if_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="timer_adc8_cpu_if_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="risc8_5stage_core_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="risc8_5stage_core_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="risc8_5stage_core_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="risc8_5stage_core_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="risc8_5stage_core_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="risc8_5stage_core_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="timer_adc8_cpu_if.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="timer_adc8_cpu_if.ncr"/>
+  <File Type="BG-BIT" Name="timer_adc8_cpu_if.bit"/>
+  <File Type="BG-XML" Name="timer_adc8_cpu_if.xml"/>
+  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
+  <File Type="BG-BIN" Name="timer_adc8_cpu_if.bin"/>
+  <File Type="BITSTR-MSK" Name="timer_adc8_cpu_if.msk"/>
+  <File Type="BITSTR-RBT" Name="timer_adc8_cpu_if.rbt"/>
+  <File Type="BITSTR-NKY" Name="timer_adc8_cpu_if.nky"/>
+  <File Type="BITSTR-BMM" Name="timer_adc8_cpu_if_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="timer_adc8_cpu_if.mmi"/>
+  <File Type="PDI-FILE" Name="timer_adc8_cpu_if.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="timer_adc8_cpu_if_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="timer_adc8_cpu_if_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="timer_adc8_cpu_if.rcfi"/>
+  <File Type="CFI_FILE" Name="timer_adc8_cpu_if.cfi"/>
+  <File Type="RNPI_FILE" Name="timer_adc8_cpu_if.rnpi"/>
+  <File Type="RCDO-FILE" Name="timer_adc8_cpu_if.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="timer_adc8_cpu_if_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="timer_adc8_cpu_if_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="timer_adc8_cpu_if_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="timer_adc8_cpu_if_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="timer_adc8_cpu_if_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="timer_adc8_cpu_if_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="timer_adc8_cpu_if_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="timer_adc8_cpu_if_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="timer_adc8_cpu_if_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="timer_adc8_cpu_if_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="timer_adc8_cpu_if_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="timer_adc8_cpu_if_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="timer_adc8_cpu_if_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="timer_adc8_cpu_if_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="timer_adc8_cpu_if_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="timer_adc8_cpu_if.npi"/>
+  <File Type="RBD_FILE" Name="timer_adc8_cpu_if.rbd"/>
+  <File Type="MMI-FILE" Name="timer_adc8_cpu_if.mmi"/>
+  <File Type="BIF-FILE" Name="timer_adc8_cpu_if.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="timer_adc8_cpu_if_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="timer_adc8_cpu_if_pld.bif"/>
+  <File Type="LTX-FILE" Name="timer_adc8_cpu_if.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="timer_adc8_cpu_if_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="timer_adc8_cpu_if_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="timer_adc8_cpu_if.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="timer_adc8_cpu_if.sysdef"/>
+  <File Type="BG-BGN" Name="timer_adc8_cpu_if.bgn"/>
+  <File Type="BG-DRC" Name="timer_adc8_cpu_if.drc"/>
+  <File Type="RDI-RDI" Name="timer_adc8_cpu_if.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="timer_adc8_cpu_if_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="timer_adc8_cpu_if_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/rtl/apb_regs8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sar_adc_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/rtl/sar_adc_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1794146238"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sync_fifo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/rtl/sync_fifo.v"/>
+        <Attr Name="ImportTime" Val="1794403949"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/timer8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/rtl/timer8.v"/>
+        <Attr Name="ImportTime" Val="1794124100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/timer_adc8_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/rtl/timer_adc8_top.v"/>
+        <Attr Name="ImportTime" Val="1794416110"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/rtl/timer_adc8_cpu_if.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/8bit_CPU/risc8_5stage/rtl/alu.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/8bit_CPU/risc8_5stage/rtl/control_unit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/8bit_CPU/risc8_5stage/rtl/hazard_unit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/8bit_CPU/risc8_5stage/rtl/imem.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/8bit_CPU/risc8_5stage/rtl/regfile.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/8bit_CPU/risc8_5stage/rtl/risc8_5stage_core.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/sv/sar_afe_model_mv.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/timer_adc8_soc/timer_adc8_soc/soc/dmem.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="timer_adc8_cpu_if"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2026"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
