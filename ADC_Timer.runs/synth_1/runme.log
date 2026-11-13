@@ -1,0 +1,294 @@
+
+*** Running vivado
+    with args -log timer_adc8_cpu_if.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source timer_adc8_cpu_if.tcl
+
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 27-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Nov 12 04:11:12 2026
+# Process ID         : 28452
+# Current directory  : E:/App/AMD_PR/ADC_Timer/ADC_Timer.runs/synth_1
+# Command line       : vivado.exe -log timer_adc8_cpu_if.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source timer_adc8_cpu_if.tcl
+# Log file           : E:/App/AMD_PR/ADC_Timer/ADC_Timer.runs/synth_1/timer_adc8_cpu_if.vds
+# Journal file       : E:/App/AMD_PR/ADC_Timer/ADC_Timer.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-LV6Q7BEF
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 8412 MB
+# Swap memory        : 8784 MB
+# Total Virtual      : 17197 MB
+# Available Virtual  : 2150 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Thu Nov 12 04:11:12 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source timer_adc8_cpu_if.tcl -notrace
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 582.977 ; gain = 268.246
+Command: synth_design -top timer_adc8_cpu_if -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20000
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1163.004 ; gain = 573.078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'timer_adc8_cpu_if' [E:/App/AMD_PR/ADC_Timer/rtl/timer_adc8_cpu_if.v:4]
+INFO: [Synth 8-6157] synthesizing module 'timer_adc8_top' [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/timer_adc8_top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'apb_regs8' [E:/App/AMD_PR/ADC_Timer/rtl/apb_regs8.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'apb_regs8' (0#1) [E:/App/AMD_PR/ADC_Timer/rtl/apb_regs8.v:14]
+INFO: [Synth 8-6157] synthesizing module 'timer8' [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/timer8.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'timer8' (0#1) [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/timer8.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sar_adc_ctrl' [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sar_adc_ctrl.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'sar_adc_ctrl' (0#1) [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sar_adc_ctrl.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sync_fifo' [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sync_fifo.v:2]
+	Parameter W bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sync_fifo' (0#1) [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sync_fifo.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'timer_adc8_top' (0#1) [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/timer_adc8_top.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'timer_adc8_cpu_if' (0#1) [E:/App/AMD_PR/ADC_Timer/rtl/timer_adc8_cpu_if.v:4]
+WARNING: [Synth 8-6014] Unused sequential element next_v_reg was removed.  [E:/App/AMD_PR/ADC_Timer/ADC_Timer.srcs/sources_1/imports/rtl/sar_adc_ctrl.v:58]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1288.078 ; gain = 698.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1288.078 ; gain = 698.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1288.078 ; gain = 698.152
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'sar_adc_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                  SAMPLE |                              010 |                               01
+                 CONVERT |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'sar_adc_ctrl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1288.078 ; gain = 698.152
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 13    
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---RAMs : 
+	               80 Bit	(8 X 10 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   3 Input    8 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	  11 Input    1 Bit        Muxes := 11    
+	   2 Input    1 Bit        Muxes := 11    
+	   3 Input    1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:47 . Memory (MB): peak = 1561.195 ; gain = 971.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------+-------------------------+-----------+----------------------+-------------+
+|Module Name       | RTL Object              | Inference | Size (Depth x Width) | Primitives  | 
++------------------+-------------------------+-----------+----------------------+-------------+
+|timer_adc8_cpu_if | u_periph/u_fifo/mem_reg | Implied   | 8 x 10               | RAM32M x 2  | 
++------------------+-------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:48 . Memory (MB): peak = 1561.195 ; gain = 971.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------------+-------------------------+-----------+----------------------+-------------+
+|Module Name       | RTL Object              | Inference | Size (Depth x Width) | Primitives  | 
++------------------+-------------------------+-----------+----------------------+-------------+
+|timer_adc8_cpu_if | u_periph/u_fifo/mem_reg | Implied   | 8 x 10               | RAM32M x 2  | 
++------------------+-------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:48 . Memory (MB): peak = 1561.195 ; gain = 971.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     4|
+|4     |LUT2   |    14|
+|5     |LUT3   |    16|
+|6     |LUT4   |    61|
+|7     |LUT5   |    43|
+|8     |LUT6   |    75|
+|9     |MUXF7  |     7|
+|10    |RAM32M |     2|
+|11    |FDRE   |   130|
+|12    |FDSE   |    18|
+|13    |IBUF   |    17|
+|14    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+---------------+------+
+|      |Instance    |Module         |Cells |
++------+------------+---------------+------+
+|1     |top         |               |   414|
+|2     |  u_periph  |timer_adc8_top |   375|
+|3     |    u_adc   |sar_adc_ctrl   |   108|
+|4     |    u_fifo  |sync_fifo      |    38|
+|5     |    u_regs  |apb_regs8      |   175|
+|6     |    u_timer |timer8         |    54|
++------+------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1761.402 ; gain = 1171.477
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:57 . Memory (MB): peak = 1762.426 ; gain = 1171.477
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1776.492 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1886.965 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+
+Synth Design complete | Checksum: 5dc3fbe9
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:01:06 . Memory (MB): peak = 1888.953 ; gain = 1305.977
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1888.953 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/App/AMD_PR/ADC_Timer/ADC_Timer.runs/synth_1/timer_adc8_cpu_if.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file timer_adc8_cpu_if_utilization_synth.rpt -pb timer_adc8_cpu_if_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 12 04:12:38 2026...
